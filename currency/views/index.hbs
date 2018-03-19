@@ -1,0 +1,30 @@
+<h1>Currency Converter</h1>
+
+<form action="/convert">
+    <label for="amount">Currency amount</label>
+    <input type="number" step="any" name="amount" id="amount" required/>
+
+    <br>
+
+    <label for="conversion">Convert</label>
+    <select name="curr_one" id="curr_one">
+            <option value="dollars">Dollars</option>
+            <option value="euros">Euros</option>
+            <option value="rupees">Rupees</option>
+    </select>
+    <select name="to_from" id="to_from">
+        <option value="to">to</option>
+        <option value="from">from</option>
+    </select>
+    <select name="curr_two" id="curr_two">
+        <option value="dollars">Dollars</option>
+        <option value="euros">Euros</option>
+        <option value="rupees">Rupees</option>
+    </select>
+    
+
+    <br>
+
+    <button type="submit">Convert</button>
+
+</form>
