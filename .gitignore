@@ -1,1 +1,7 @@
-.vscode 
+.vscode
+node_modules/
+express
+express.cmd
+nodemon
+nodemon.cmd
+screenshots.docx
