@@ -1,9 +1,9 @@
 var request = require('request');
-var baseURL = 'http://data.fixer.io/api/';
+var baseURL = 'http://data.fixer.io/api/latest';
 
 var APIKEY = process.env.FIXER_API;
 
-function currencyRequest(callback, base, to) {
+function currencyRequest(base, to, callback) {
 
     // Wait for callback
     process.nextTick(function() {
